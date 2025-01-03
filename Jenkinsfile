@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'xabiantageltaa/saklarjs:latest'
-        CONTAINER_NAME = 'saklar'
+        CONTAINER_NAME = 'ayam'
         PORT_MAPPING = '8070:80'  // Adjust the port mapping as needed
     }
 

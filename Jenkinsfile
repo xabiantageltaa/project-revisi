@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'xabiantageltaa/saklarjs:latest'
         CONTAINER_NAME = 'revisi'
-        PORT_MAPPING = '8070:80'  // Adjust the port mapping as needed
+        PORT_MAPPING = '8050:80'  // Adjust the port mapping as needed
     }
 
     stages {
